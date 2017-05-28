@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Vega;
+    src: url(fonts/10453.ttf);
+}
+
+@font-face {
+    font-family: Body;
+    src: url(fonts/10389.ttf);
+}
+
+body {
+    background-image: linear-gradient(#0B002D, #150154);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Body;
+}
+            
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #07001D;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    font-family: Vega;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    display: table;
+}
+.nav-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo {
+    height: 70pt;
+    float: left;
+}
+
+.container {
+    background-color: white;
+    margin-top: 75pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
+    padding: 10pt;
+    text-align: center;
+}
+
+.thumbnail {
+    border: 1px solid #dddddd;
+    border-radius: 2%;
+    margin: 10pt;
+    padding: 5pt;
+    text-align: center;
+}
