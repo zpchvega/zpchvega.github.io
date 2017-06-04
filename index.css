@@ -43,16 +43,16 @@ body {
 .container {
     background-color: white;
     margin-top: 75pt;
-    margin-left: 100pt;
-    margin-right: 100pt;
-    padding: 10pt;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 3vw;
     text-align: center;
 }
 
 .thumbnail {
     border: 1px solid #dddddd;
     border-radius: 2%;
-    margin: 10pt;
-    padding: 5pt;
+    margin: 2vw;
+    padding: 2vw;
     text-align: center;
 }
